@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwelcome"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="25dp"
+        android:layout_marginTop="0dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_black"
+            android:text="Selamat Datang di Aplikasi Pembelajaran"
+            android:textColor="@color/white"
+            android:textSize="36dp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_black"
+            android:text="Struktur Data"
+            android:textColor="#4fa55a"
+            android:layout_marginTop="-20dp"
+            android:textSize="42dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:padding="25dp"
+        android:layout_marginTop="500dp"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/loginbtn"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#4fa55a"
+        android:fontFamily="@font/poppins_extrabold"
+        android:text="Lets Go!!"
+        android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:fontFamily="@font/poppins"
+            android:text="Aplikasi ini dibuat oleh Dante Frits @2024"
+            android:textColor="@color/white"
+            android:textSize="14dp" />
+        </LinearLayout>
+
+</RelativeLayout >
